@@ -24,7 +24,7 @@ function updateGarden(animate = false) {
   let stage;
 
   if (growth === 0) {
-    image = "assets/Seed.webp";
+    image = "assets/seed.webp";
     alt = "Pumpkin seed";
     stage = "stage-seed";
   } else if (growth === 50) {
