@@ -1,0 +1,93 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<!-- PixelPumpkin Favicon -->
+<link rel="icon" type="image/webp" href="assets/Pumpkin.webp">
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PixelPumpkin | Grow Your Pumpkin</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+
+  <main class="game">
+
+    <header class="header">
+ 
+<h1><span class="pixel">PIXEL</span><span class="pumpkin">PUMPKIN</span></h1>
+
+    </header>
+
+    <section class="growth">
+      <div class="growth-label">
+        <span>GROWTH</span>
+        <span id="growth-percent">0%</span>
+      </div>
+
+      <div class="progress-track">
+        <div id="progress-fill"></div>
+      </div>
+    </section>
+
+    <section class="garden">
+      <h2>YOUR LITTLE GARDEN</h2>
+
+      <div class="garden-scene">
+        <img
+          id="plant"
+          src="assets/seed.webp"
+          alt="Pumpkin seed"
+        >
+
+        <img
+          class="soil"
+          src="assets/soil.webp"
+          alt="Garden soil"
+        >
+      </div>
+
+      <p id="garden-message">
+        Your pumpkin is waiting to grow!
+      </p>
+    </section>
+
+    <div class="actions">
+      <button id="water-btn" type="button">WATER</button>
+      <button id="sun-btn" type="button">SUNLIGHT</button>
+      <button id="grow-btn" type="button">GROWTH</button>
+    </div>
+
+    <p class="instructions">
+      Give your pumpkin some love to help it grow! ♡
+
+    </p>
+
+<!-- Animated mini pumpkin patch -->
+<div class="mini-pumpkin-patch" aria-hidden="true">
+  <img
+    src="assets/Pumpkin.webp"
+    class="mini-pumpkin pumpkin-one"
+    alt=""
+  >
+
+  <img
+    src="assets/Pumpkin.webp"
+    class="mini-pumpkin pumpkin-two"
+    alt=""
+  >
+
+  <img
+    src="assets/Pumpkin.webp"
+    class="mini-pumpkin pumpkin-three"
+    alt=""
+  >
+</div>
+
+  </main>
+
+</body>
+</html>
