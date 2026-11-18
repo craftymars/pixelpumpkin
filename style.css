@@ -954,3 +954,11 @@ body {
     animation: none;
   }
 }
+
+/* Keep the seed visible above the soil */
+#plant.stage-seed {
+  width: 55px;
+  height: 55px;
+  bottom: 65px;
+  z-index: 5;
+}
