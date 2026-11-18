@@ -164,9 +164,6 @@ animateSunlight(true);
 hasSunlight = true;
 growth = 100;
 
-  hasSunlight = true;
-  growth = 100;
-
   gardenMessage.textContent =
     "Your pumpkin has fully grown! 🎃";
 
